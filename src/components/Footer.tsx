@@ -104,9 +104,6 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm">
           <p>© {new Date().getFullYear()} {profile.name}. All rights reserved.</p>
-          <p className="flex items-center gap-1">
-            Built with <FontAwesomeIcon icon={faHeart} className="text-red-500 mx-1" /> using React & Tailwind CSS
-          </p>
         </div>
       </div>
     </footer>
