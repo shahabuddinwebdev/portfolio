@@ -1,0 +1,58 @@
+import type { Testimonial } from '../types'
+
+export const testimonials: Testimonial[] = [
+  {
+    id: 1,
+    name: 'Sarah Chen',
+    role: 'VP of Engineering',
+    company: 'TechNova Inc.',
+    avatar: 'https://picsum.photos/seed/sarah/100/100',
+    text: 'Alex is one of the most talented engineers I\'ve had the pleasure of working with. Their ability to architect complex systems while keeping the codebase clean and maintainable is truly exceptional. They elevated our entire engineering team.',
+    rating: 5,
+  },
+  {
+    id: 2,
+    name: 'Marcus Johnson',
+    role: 'CTO',
+    company: 'CloudSphere Solutions',
+    avatar: 'https://picsum.photos/seed/marcus/100/100',
+    text: 'Alex delivered our deployment platform ahead of schedule and under budget. The quality of their work is outstanding — they think deeply about edge cases and long-term maintainability. I\'d hire them again without hesitation.',
+    rating: 5,
+  },
+  {
+    id: 3,
+    name: 'Priya Patel',
+    role: 'Product Manager',
+    company: 'TechNova Inc.',
+    avatar: 'https://picsum.photos/seed/priya/100/100',
+    text: 'Working with Alex was a dream. They have a rare combination of technical depth and product intuition. They always asked the right questions and pushed back constructively when requirements were unclear. A true team player.',
+    rating: 5,
+  },
+  {
+    id: 4,
+    name: 'David Kim',
+    role: 'Senior Engineer',
+    company: 'Pixel Labs',
+    avatar: 'https://picsum.photos/seed/david/100/100',
+    text: 'Alex mentored me during my first year as a developer. Their patience, clarity of explanation, and genuine care for my growth made an enormous difference. The component library they built is still the gold standard on our team.',
+    rating: 5,
+  },
+  {
+    id: 5,
+    name: 'Emma Rodriguez',
+    role: 'Design Lead',
+    company: 'Pixel Labs',
+    avatar: 'https://picsum.photos/seed/emma/100/100',
+    text: 'As a designer, I\'ve worked with many developers who struggle to translate designs faithfully. Alex is different — they have an eye for detail and always implement pixel-perfect UIs while also suggesting improvements that make the product better.',
+    rating: 5,
+  },
+  {
+    id: 6,
+    name: 'James Wilson',
+    role: 'Founder & CEO',
+    company: 'StartupXYZ',
+    avatar: 'https://picsum.photos/seed/james/100/100',
+    text: 'Alex built our entire MVP in 6 weeks. The code quality was production-ready from day one, and they set up CI/CD, monitoring, and documentation that let us scale confidently. They\'re the reason we got our Series A.',
+    rating: 5,
+  },
+]
