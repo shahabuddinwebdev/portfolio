@@ -84,11 +84,11 @@ export default function Home() {
                 </div>
                 <div className="absolute -bottom-4 -left-4 card px-4 py-3 shadow-lg">
                   <p className="text-xs text-gray-500 dark:text-gray-400">Experience</p>
-                  <p className="font-bold text-lg">7+ Years</p>
+                  <p className="font-bold text-lg">2+ Years</p>
                 </div>
                 <div className="absolute -top-4 -right-4 card px-4 py-3 shadow-lg">
                   <p className="text-xs text-gray-500 dark:text-gray-400">Projects</p>
-                  <p className="font-bold text-lg">80+ Done</p>
+                  <p className="font-bold text-lg">30+ Done</p>
                 </div>
               </div>
             </motion.div>

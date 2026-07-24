@@ -9,7 +9,7 @@ export const profile = {
   phone: '00000',
   location: 'Dhaka, Bangladesh',
   availability: 'Available for freelance & full-time opportunities',
-  resumeUrl: '#',
+  resumeUrl: 'https://www.overleaf.com/read/krkvhmtjhdfw#b50d65',
   avatar: 'https://picsum.photos/seed/alexmorgan/400/400',
   hobbies: [
     { name: 'Photography', icon: 'fa-camera', description: 'Capturing urban landscapes and street scenes.' },
