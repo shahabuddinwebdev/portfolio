@@ -1,13 +1,13 @@
 export const profile = {
-  name: 'Alex Morgan',
-  firstName: 'Alex',
-  title: 'Senior Software Engineer',
+  name: 'Shahabuddin',
+  firstName: 'Shahab',
+  title: 'Software Engineer',
   tagline: 'Building scalable, elegant software that makes a difference.',
-  bio: 'I\'m a passionate software engineer with 7+ years of experience designing and building production-grade web applications and distributed systems. I love turning complex problems into simple, beautiful, and intuitive solutions.',
+  bio: 'I\'m a passionate software engineer with  experience designing and building production-grade web applications and distributed systems. I love turning complex problems into simple, beautiful, and intuitive solutions.',
   longBio: 'I specialize in full-stack development with a focus on React, TypeScript, and cloud-native architectures. Over my career I\'ve led engineering teams, architected systems serving millions of users, and mentored dozens of developers. When I\'m not coding, you\'ll find me contributing to open source, hiking, or experimenting with the latest AI tools.',
-  email: 'alex.morgan@example.com',
-  phone: '+1 (555) 123-4567',
-  location: 'San Francisco, CA',
+  email: 'shahabuddin.swe@gmail.com',
+  phone: '00000',
+  location: 'Dhaka, Bangladesh',
   availability: 'Available for freelance & full-time opportunities',
   resumeUrl: '#',
   avatar: 'https://picsum.photos/seed/alexmorgan/400/400',
@@ -22,8 +22,8 @@ export const profile = {
 }
 
 export const socialLinks = [
-  { name: 'GitHub', icon: 'fa-github', url: 'https://github.com', color: 'hover:text-gray-900 dark:hover:text-white' },
-  { name: 'LinkedIn', icon: 'fa-linkedin', url: 'https://linkedin.com', color: 'hover:text-blue-600' },
+  { name: 'GitHub', icon: 'fa-github', url: 'https://github.com/shahabuddinwebdev', color: 'hover:text-gray-900 dark:hover:text-white' },
+  { name: 'LinkedIn', icon: 'fa-linkedin', url: 'https://linkedin.com/iamshahabuddin', color: 'hover:text-blue-600' },
   { name: 'Twitter', icon: 'fa-x-twitter', url: 'https://twitter.com', color: 'hover:text-sky-500' },
   { name: 'Dribbble', icon: 'fa-dribbble', url: 'https://dribbble.com', color: 'hover:text-pink-500' },
   { name: 'Instagram', icon: 'fa-instagram', url: 'https://instagram.com', color: 'hover:text-rose-500' },
