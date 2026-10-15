@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCode, faEnvelope, faPhone, faLocationDot, faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faEnvelope, faPhone, faLocationDot} from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faXTwitter, faDribbble } from '@fortawesome/free-brands-svg-icons'
 import { profile } from '../data/profile'
 
