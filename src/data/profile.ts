@@ -10,7 +10,7 @@ export const profile = {
   location: 'Dhaka, Bangladesh',
   availability: 'Available for freelance & full-time opportunities',
   resumeUrl: 'https://www.overleaf.com/read/krkvhmtjhdfw#b50d65',
-  avatar: 'https://picsum.photos/seed/alexmorgan/400/400',
+  avatar: 'https://lh3.googleusercontent.com/a/ACg8ocIVm-AHZHsMvhz9NW3JZjaYVRey0ET99kU962iXBMoQrhFVhOMh=s900-c-no',
   hobbies: [
     { name: 'Photography', icon: 'fa-camera', description: 'Capturing urban landscapes and street scenes.' },
     { name: 'Hiking', icon: 'fa-mountain', description: 'Exploring national parks and mountain trails.' },
