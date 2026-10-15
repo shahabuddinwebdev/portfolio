@@ -57,7 +57,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="flex items-center gap-4">
-                {socialLinks.slice(0, 4).map((s) => (
+                {socialLinks.slice(0, 3).map((s) => (
                   <a
                     key={s.name}
                     href={s.url}
