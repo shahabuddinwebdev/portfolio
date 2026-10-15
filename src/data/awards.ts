@@ -3,10 +3,10 @@ import type { Award } from '../types'
 export const awards: Award[] = [
   {
     id: 1,
-    title: 'AWS Certified Solutions Architect – Professional',
-    issuer: 'Amazon Web Services',
-    date: 'March 2024',
-    description: 'Validates advanced technical skills and experience in designing distributed applications and systems on the AWS platform.',
+    title: 'Dean Award – Fall 2020',
+    issuer: 'Green University of Bangladesh',
+    date: 'December 2021',
+    description: 'For outstanding academic performance and contributions to the university community, awarded to the top 1% of students in the graduating class.',
     image: 'https://picsum.photos/seed/aws-cert/200/200',
     type: 'certification',
     credentialUrl: 'https://aws.amazon.com/certification/',
