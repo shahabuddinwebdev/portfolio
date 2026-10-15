@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faDownload, faEnvelope, faCode, faServer, faCloud } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { profile, socialLinks } from '../data/profile'
 import { stats } from '../data/misc'
 import { projects } from '../data/projects'
@@ -66,7 +66,7 @@ export default function Home() {
                     aria-label={s.name}
                     className={`text-gray-400 text-xl transition-colors ${s.color}`}
                   >
-                    <FontAwesomeIcon icon={s.name === 'GitHub' ? faGithub : faLinkedin} />
+                    <FontAwesomeIcon icon={s.name === 'GitHub' ? faGithub : s.name === 'YouTube' ? faYoutube : faLinkedin} />
                   </a>
                 ))}
               </div>
