@@ -27,10 +27,10 @@ export const faqs: FAQ[] = [
 ]
 
 export const stats: Stat[] = [
-  { label: 'Years of Experience', value: '7+', icon: 'fa-calendar' },
-  { label: 'Projects Completed', value: '80+', icon: 'fa-check-circle' },
-  { label: 'Happy Clients', value: '50+', icon: 'fa-smile' },
-  { label: 'GitHub Stars', value: '3.2K', icon: 'fa-star' },
-  { label: 'Open Source Contributions', value: '500+', icon: 'fa-code-branch' },
+  { label: 'Years of Experience', value: '2+', icon: 'fa-calendar' },
+  { label: 'Projects Completed', value: '25+', icon: 'fa-check-circle' },
+  { label: 'Happy Clients', value: '13', icon: 'fa-smile' },
+  { label: 'Research As First Author', value: '3', icon: 'fa-star' },
+  { label: 'Open Source Contributions', value: '50+', icon: 'fa-code-branch' },
   { label: 'Certifications', value: '8', icon: 'fa-certificate' },
 ]
