@@ -27,7 +27,7 @@ export const socialLinks = [
   { name: 'Twitter', icon: 'fa-x-twitter', url: 'https://twitter.com', color: 'hover:text-sky-500' },
   { name: 'Dribbble', icon: 'fa-dribbble', url: 'https://dribbble.com', color: 'hover:text-pink-500' },
   { name: 'Instagram', icon: 'fa-instagram', url: 'https://instagram.com', color: 'hover:text-rose-500' },
-  { name: 'YouTube', icon: 'fa-youtube', url: 'https://youtube.com', color: 'hover:text-red-600' },
+  { name: 'YouTube', icon: 'fa-youtube', url: 'https://youtube.com/migfiedacademy', color: 'hover:text-red-600' },
 ]
 
 export const services = [
