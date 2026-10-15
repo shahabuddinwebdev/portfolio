@@ -3,7 +3,7 @@ import type { Experience, Education } from '../types'
 export const experiences: Experience[] = [
   {
     id: 1,
-    company: 'GirlScipt Summer of Code',
+    company: 'GirlScript Summer of Code',
     role: 'Contributor',
     period: 'May 2026 – Present',
     location: '(Remote)',
@@ -42,10 +42,10 @@ export const education: Education[] = [
     degree: 'Bachelor of Science',
     field: 'Electrical & Electronics Engineering',
     period: 'Oct 2019 – Sept 2026',
-    gpa: '3.07/ 4.0',
+    gpa: '3.15/ 4.0',
     achievements: [
       'Received Dean Award for Academic Excellence in Fall 2020',
-      'Relevant coursework: Digital Electronics(Digital Logic Design), Microprocessor & Interfacing, Computer Programming & Lab'
+      'Relevant coursework: Digital Electronics(Digital Logic Design), Microprocessor & Interfacing, Computer Programming, Computer Programming & Lab'
     ],
   },
   
