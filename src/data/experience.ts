@@ -41,13 +41,15 @@ export const research: Research[] = [
     organization: '7th International Conference on Electrical Engineering and Information & Communication Technology',
     title: 'Design of a Compact Meandered Patch Antenna for 2.4 GHz Brain-Machine Interface Applications',
     period: '2026',
-    location: 'Dhaka Bangladesh',
+    authors: 'Md. Shahab Uddin, Mohammad Nazmus Shakib, Zubair Uddin Raqib,  Mijanur Rahman',
     description: [
       'Reduced API response times by 65% through caching strategies and query optimization',
       'Mentored a team of 6 engineers and conducted 100+ code reviews per quarter',
       'Drove adoption of TypeScript and testing best practices, increasing code coverage from 40% to 92%',
       'Designed and implemented real-time event streaming pipeline processing 50M events/day',
     ],
+    logo: 'https://repository-images.githubusercontent.com/331823142/9764a900-5c8e-11eb-9f94-da2a01385e83',
+    publisher: 'IEEE'
   },
 ]
 

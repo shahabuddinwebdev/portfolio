@@ -37,8 +37,10 @@ export interface Research {
   organization: string
   title: string
   period: string
-  location: string
+  authors: string
   description: string[]
+  logo: string
+  publisher: string
 }
 
 export interface Skill {
