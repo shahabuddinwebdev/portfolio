@@ -41,6 +41,7 @@ export interface Research {
   description: string[]
   logo: string
   publisher: string
+  paperUrl: string
 }
 
 export interface Skill {
