@@ -42,13 +42,7 @@ export const research: Research[] = [
     title: 'Design of a Compact Meandered Patch Antenna for 2.4 GHz Brain-Machine Interface Applications',
     period: '2026',
     authors: 'Md. Shahab Uddin, Dr. Mohammed Nazmus Shakib, Zubair Uddin Raqeeb, Md Mijanur Rahman',
-    description: [
-      'Reduced API response times by 65% through caching strategies and query optimization',
-      'Mentored a team of 6 engineers and conducted 100+ code reviews per quarter',
-      'Drove adoption of TypeScript and testing best practices, increasing code coverage from 40% to 92%',
-      'Designed and implemented real-time event streaming pipeline processing 50M events/day',
-    ],
-    logo: 'https://repository-images.githubusercontent.com/331823142/9764a900-5c8e-11eb-9f94-da2a01385e83',
+    logo: 'https://brand-experience.ieee.org/wp-content/uploads/2016/12/LogoTest-e1481836752230.png',
     publisher: 'IEEE',
     paperUrl: ''
   },
@@ -58,29 +52,17 @@ export const research: Research[] = [
     title: 'A Compact UWB Implantable Antenna for Brain–Machine Interface and Neural Biotelemetry',
     period: '2026',
     authors: 'Md. Shahab Uddin, Dr. Mohammed Nazmus Shakib, Zubair Uddin Raqeeb, Soyed Abir Hasan, Md Mijanur Rahman, Md Rishad',
-    description: [
-      'Reduced API response times by 65% through caching strategies and query optimization',
-      'Mentored a team of 6 engineers and conducted 100+ code reviews per quarter',
-      'Drove adoption of TypeScript and testing best practices, increasing code coverage from 40% to 92%',
-      'Designed and implemented real-time event streaming pipeline processing 50M events/day',
-    ],
-    logo: 'https://repository-images.githubusercontent.com/331823142/9764a900-5c8e-11eb-9f94-da2a01385e83',
+    logo: 'https://brand-experience.ieee.org/wp-content/uploads/2016/12/LogoTest-e1481836752230.png',
     publisher: 'IEEE',
     paperUrl: ''
   },
   {
     id: 3,
-    organization: '7th International Conference on Electrical Engineering and Information & Communication Technology',
+    organization: 'International Conference on Electrical, Computer and Communication Engineering.',
     title: 'Design and Characterization of a Compact Biocompatible UWB Antenna for Brain–Machine Interface Systems',
     period: '2026',
     authors: 'Md. Shahab Uddin, Dr. Mohammed Nazmus Shakib',
-    description: [
-      'Reduced API response times by 65% through caching strategies and query optimization',
-      'Mentored a team of 6 engineers and conducted 100+ code reviews per quarter',
-      'Drove adoption of TypeScript and testing best practices, increasing code coverage from 40% to 92%',
-      'Designed and implemented real-time event streaming pipeline processing 50M events/day',
-    ],
-    logo: 'https://repository-images.githubusercontent.com/331823142/9764a900-5c8e-11eb-9f94-da2a01385e83',
+    logo: 'https://brand-experience.ieee.org/wp-content/uploads/2016/12/LogoTest-e1481836752230.png',
     publisher: 'IEEE',
     paperUrl: ''
   },
@@ -90,13 +72,7 @@ export const research: Research[] = [
     title: 'A Compact Triple-Band Implantable Antenna for Wireless Capsule Telemetry',
     period: '2026',
     authors: 'Md Mijanur Rahman, Dr. Mohammed Nazmus Shakib, Md. Shahab Uddin ',
-    description: [
-      'Reduced API response times by 65% through caching strategies and query optimization',
-      'Mentored a team of 6 engineers and conducted 100+ code reviews per quarter',
-      'Drove adoption of TypeScript and testing best practices, increasing code coverage from 40% to 92%',
-      'Designed and implemented real-time event streaming pipeline processing 50M events/day',
-    ],
-    logo: 'https://repository-images.githubusercontent.com/331823142/9764a900-5c8e-11eb-9f94-da2a01385e83',
+    logo: 'https://brand-experience.ieee.org/wp-content/uploads/2016/12/LogoTest-e1481836752230.png',
     publisher: 'IEEE',
     paperUrl: ''
   },
@@ -106,13 +82,7 @@ export const research: Research[] = [
     title: 'Design of a Compact Meandered Patch Antenna for 2.4 GHz Brain-Machine Interface Applications',
     period: '2026',
     authors: 'Md. Shahab Uddin, Dr. Mohammed Nazmus Shakib, Zubair Uddin Raqeeb, Soyed Abir Hasan, Md Mijanur Rahman, Md Rishad',
-    description: [
-      'Reduced API response times by 65% through caching strategies and query optimization',
-      'Mentored a team of 6 engineers and conducted 100+ code reviews per quarter',
-      'Drove adoption of TypeScript and testing best practices, increasing code coverage from 40% to 92%',
-      'Designed and implemented real-time event streaming pipeline processing 50M events/day',
-    ],
-    logo: 'https://repository-images.githubusercontent.com/331823142/9764a900-5c8e-11eb-9f94-da2a01385e83',
+    logo: 'https://brand-experience.ieee.org/wp-content/uploads/2016/12/LogoTest-e1481836752230.png',
     publisher: 'IEEE',
     paperUrl: ''
   },

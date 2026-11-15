@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt, faCheckCircle, faGraduationCap, faUserGroup, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import { experiences, education, research } from '../data/experience'
+import { faLeanpub } from '@fortawesome/free-brands-svg-icons'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -81,17 +82,17 @@ export default function Experience() {
                   <div className="absolute left-4 top-6 w-4 h-4 rounded-full bg-indigo-600 border-4 border-white dark:border-gray-950 hidden md:block" />
                   <div className="card p-6">
                     <div className="flex flex-wrap items-start gap-4 mb-4">
-                      <img src={exp.logo} alt={exp.organization} className="w-14 h-14 rounded-xl object-cover flex-shrink-0" />
+                      <img src={exp.logo} alt={exp.organization} className="w-20 h-12 rounded-xl flex-shrink-0" />
                       <div className="flex-1 min-w-0">
                         <div className="flex flex-wrap justify-between gap-2">
-                          <h3 className="font-bold text-xl">{exp.title}</h3>
-                          <h3>                  <FontAwesomeIcon icon={faUserGroup} className="text-xs" /> {exp.authors}</h3>
+                          <h3 className="font-medium text-lg">{exp.title}</h3>
+                          <h3>                  <FontAwesomeIcon icon={faUserGroup} className="text-sm" /> {exp.authors}</h3>
                         <p className="text-indigo-600 dark:text-indigo-400 font-medium mt-1"> <FontAwesomeIcon icon={faGraduationCap} /> {exp.organization}</p>
                         <p className="text-sm text-gray-500 dark:text-gray-400 flex items-center gap-1 mt-0.5">
-                          <FontAwesomeIcon icon={faMapMarkerAlt} className="text-xs" /> {exp.publisher}
+                          <FontAwesomeIcon icon={faLeanpub} className="text-xs" /> {exp.publisher}
                         </p>
                         <span className="text-sm font-medium text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-500/10 px-4 py-2 rounded-full mb-6 inline-block">{exp.period}</span>
-                       <button className="btn-primary">
+                       <button className="btn-primary text-sm font-medium mb-2 mt-2">
                         <a href={exp.paperUrl} target="_blank" rel="noopener noreferrer">View Paper <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="text-xs" /> </a>
                        </button>
                         </div>

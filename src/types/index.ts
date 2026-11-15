@@ -38,7 +38,6 @@ export interface Research {
   title: string
   period: string
   authors: string
-  description: string[]
   logo: string
   publisher: string
   paperUrl: string
