@@ -1,4 +1,4 @@
-import type { Experience, Education } from '../types'
+import type { Experience, Education, Research } from '../types'
 
 export const experiences: Experience[] = [
   {
@@ -32,6 +32,23 @@ export const experiences: Experience[] = [
     ],
     technologies: ['Python', 'React', 'D3.js', 'SQL', 'Pandas'],
     logo: 'https://picsum.photos/seed/databridge/80/80',
+  },
+]
+
+export const research: Research[] = [
+  {
+    id: 1,
+    organization: 'IEEE',
+    title: 'Design of a Compact Meandered Patch Antenna for 2.4 GHz Brain-Machine Interface Applications',
+    period: '2026',
+    location: '(Remote)',
+    description: [
+      'Reduced API response times by 65% through caching strategies and query optimization',
+      'Mentored a team of 6 engineers and conducted 100+ code reviews per quarter',
+      'Drove adoption of TypeScript and testing best practices, increasing code coverage from 40% to 92%',
+      'Designed and implemented real-time event streaming pipeline processing 50M events/day',
+    ],
+    logo: 'https://repository-images.githubusercontent.com/331823142/9764a900-5c8e-11eb-9f94-da2a01385e83',
   },
 ]
 

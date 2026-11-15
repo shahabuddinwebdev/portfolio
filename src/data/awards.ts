@@ -13,8 +13,8 @@ export const awards: Award[] = [
   },
   {
     id: 2,
-    title: 'Google Cloud Professional Data Engineer',
-    issuer: 'Google Cloud',
+    title: 'GirlScript Summer of Code 2026',
+    issuer: 'GSSOC',
     date: 'November 2023',
     description: 'Demonstrates ability to design, build, operationalize, secure, and monitor data processing systems.',
     image: 'https://picsum.photos/seed/gcp-cert/200/200',

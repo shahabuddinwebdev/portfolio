@@ -32,6 +32,16 @@ export interface Education {
   achievements: string[]
 }
 
+export interface Research {
+  id: number
+  organization: string
+  title: string
+  period: string
+  location: string
+  description: string[]
+  logo: string
+}
+
 export interface Skill {
   name: string
   level: number

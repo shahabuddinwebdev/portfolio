@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt, faCheckCircle } from '@fortawesome/free-solid-svg-icons'
-import { experiences, education } from '../data/experience'
+import { experiences, education, research } from '../data/experience'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -68,6 +68,46 @@ export default function Experience() {
         </div>
       </section>
 
+      <section className="section">
+        <div className="container-max">
+          <h2 className="text-2xl font-bold mb-10 text-center">Research Experience</h2>
+          <div className="relative max-w-4xl mx-auto">
+            {/* Timeline line */}
+            <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-gradient-to-b from-indigo-500 to-purple-500 hidden md:block" />
+            <div className="space-y-8">
+              {research.map((exp, i) => (
+                <motion.div key={exp.id} custom={i} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="md:pl-16 relative">
+                  {/* Dot */}
+                  <div className="absolute left-4 top-6 w-4 h-4 rounded-full bg-indigo-600 border-4 border-white dark:border-gray-950 hidden md:block" />
+                  <div className="card p-6">
+                    <div className="flex flex-wrap items-start gap-4 mb-4">
+                      <img src={exp.logo} alt={exp.organization} className="w-14 h-14 rounded-xl object-cover flex-shrink-0" />
+                      <div className="flex-1 min-w-0">
+                        <div className="flex flex-wrap justify-between gap-2">
+                          <h3 className="font-bold text-xl">{exp.title}</h3>
+                          <span className="text-sm bg-indigo-50 dark:bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 px-3 py-1 rounded-full">{exp.period}</span>
+                        </div>
+                        <p className="text-indigo-600 dark:text-indigo-400 font-medium mt-1">{exp.organization}</p>
+                        <p className="text-sm text-gray-500 dark:text-gray-400 flex items-center gap-1 mt-0.5">
+                          <FontAwesomeIcon icon={faMapMarkerAlt} className="text-xs" /> {exp.location}
+                        </p>
+                      </div>
+                    </div>
+                    <ul className="space-y-2 mb-4">
+                      {exp.description.map((d) => (
+                        <li key={d} className="flex items-start gap-2 text-sm text-gray-600 dark:text-gray-400">
+                          <FontAwesomeIcon icon={faCheckCircle} className="text-green-500 mt-0.5 flex-shrink-0 text-xs" />
+                          {d}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Education */}
       <section className="section bg-gray-50 dark:bg-gray-900/50">
         <div className="container-max">
