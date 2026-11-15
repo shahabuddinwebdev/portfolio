@@ -38,17 +38,16 @@ export const experiences: Experience[] = [
 export const research: Research[] = [
   {
     id: 1,
-    organization: 'IEEE',
+    organization: '7th International Conference on Electrical Engineering and Information & Communication Technology',
     title: 'Design of a Compact Meandered Patch Antenna for 2.4 GHz Brain-Machine Interface Applications',
     period: '2026',
-    location: '(Remote)',
+    location: 'Dhaka Bangladesh',
     description: [
       'Reduced API response times by 65% through caching strategies and query optimization',
       'Mentored a team of 6 engineers and conducted 100+ code reviews per quarter',
       'Drove adoption of TypeScript and testing best practices, increasing code coverage from 40% to 92%',
       'Designed and implemented real-time event streaming pipeline processing 50M events/day',
     ],
-    logo: 'https://repository-images.githubusercontent.com/331823142/9764a900-5c8e-11eb-9f94-da2a01385e83',
   },
 ]
 
@@ -58,11 +57,11 @@ export const education: Education[] = [
     institution: 'Green University of Bangladesh',
     degree: 'Bachelor of Science',
     field: 'Electrical & Electronics Engineering',
-    period: 'Oct 2019 – Sept 2026',
-    gpa: '3.15/ 4.0',
+    period: '2026',
+    gpa: '3.18/ 4.0',
     achievements: [
       'Received Dean Award for Academic Excellence in Fall 2020',
-      'Relevant coursework: Digital Electronics(Digital Logic Design), Microprocessor & Interfacing, Computer Programming, Computer Programming & Lab'
+      'Relevant Coursework: Digital Electronics (Digital Logic Design), Microprocessor & Interfacing, Computer Programming, Computer Programming & Lab, Digital Signal Processing, Differential and Integral Calculus, Ordinary and Partial Differential Equations and Coordinate Geometry, Linear Algebra and Complex Variable, Probability & Statistics'
     ],
   },
   

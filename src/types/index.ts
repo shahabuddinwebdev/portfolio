@@ -39,7 +39,6 @@ export interface Research {
   period: string
   location: string
   description: string[]
-  logo: string
 }
 
 export interface Skill {

@@ -81,16 +81,17 @@ export default function Experience() {
                   <div className="absolute left-4 top-6 w-4 h-4 rounded-full bg-indigo-600 border-4 border-white dark:border-gray-950 hidden md:block" />
                   <div className="card p-6">
                     <div className="flex flex-wrap items-start gap-4 mb-4">
-                      <img src={exp.logo} alt={exp.organization} className="w-14 h-14 rounded-xl object-cover flex-shrink-0" />
                       <div className="flex-1 min-w-0">
                         <div className="flex flex-wrap justify-between gap-2">
-                          <h3 className="font-bold text-xl">{exp.title}</h3>
-                          <span className="text-sm bg-indigo-50 dark:bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 px-3 py-1 rounded-full">{exp.period}</span>
-                        </div>
-                        <p className="text-indigo-600 dark:text-indigo-400 font-medium mt-1">{exp.organization}</p>
-                        <p className="text-sm text-gray-500 dark:text-gray-400 flex items-center gap-1 mt-0.5">
+                          <h3 className="font-medium dark:text-gray-500 text-lg">{exp.id}. Title: {exp.title}</h3>
+
+                          <p className="text-sm text-gray-500 dark:text-gray-400 flex items-center gap-1 mt-0.5">
                           <FontAwesomeIcon icon={faMapMarkerAlt} className="text-xs" /> {exp.location}
                         </p>
+                        <span className="text-sm bg-indigo-50 dark:bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 px-3 py-1 rounded-full">Year: {exp.period}</span>
+                        <p className="text-indigo-600 dark:text-indigo-400 font-sm mt-1">Organizer: {exp.organization}</p>
+                        </div>
+
                       </div>
                     </div>
                     <ul className="space-y-2 mb-4">
