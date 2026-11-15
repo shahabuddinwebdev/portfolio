@@ -45,6 +45,7 @@ export default function Home() {
               </h1>
               <p className="text-xl text-gray-500 dark:text-gray-400 mb-4 font-medium">{profile.title}</p>
               <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed mb-8 max-w-lg">{profile.bio}</p>
+              <p className='text-gray-600 dark:text-gray-400 text-md mb-8 font-semibold max-w-lg'>Interest Fields: Software, Machine Learning, AI, and Brain Machine Interface.</p>
               <div className="flex flex-wrap gap-4 mb-10">
                 <Link to="/projects" className="btn-primary">
                   View My Work <FontAwesomeIcon icon={faArrowRight} />
