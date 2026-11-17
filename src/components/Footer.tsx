@@ -19,7 +19,7 @@ const socialIcons = [
   { icon: faGithub, url: 'https://github.com', label: 'GitHub' },
   { icon: faLinkedin, url: 'https://linkedin.com', label: 'LinkedIn' },
   { icon: faGoogleScholar, url: 'https://twitter.com', label: 'Twitter' },
-  { icon: faYoutube, url: 'https://dribbble.com', label: 'Dribbble' },
+  { icon: faYoutube, url: 'https://youtube.com', label: 'Youtube' },
 ]
 
 export default function Footer() {
