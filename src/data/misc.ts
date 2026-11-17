@@ -1,7 +1,7 @@
 import type { GalleryItem, FAQ, Stat } from '../types'
 
 export const galleryItems: GalleryItem[] = [
-  { id: 1, title: 'Team Hackathon Win', category: 'Events', image: 'https://picsum.photos/seed/gal1/600/400', description: 'Our team celebrating the HackSF 2022 grand prize victory.' },
+  { id: 1, title: 'National Parade 2022', category: 'Events', image: 'https://picsum.photos/seed/gal1/600/400', description: 'Our team celebrating the HackSF 2022 grand prize victory.' },
   { id: 2, title: 'Conference Talk', category: 'Speaking', image: 'https://picsum.photos/seed/gal2/600/400', description: 'Presenting on distributed systems at NodeConf 2023.' },
   { id: 3, title: 'Office Setup', category: 'Workspace', image: 'https://picsum.photos/seed/gal3/600/400', description: 'My home office setup optimized for deep work.' },
   { id: 4, title: 'Team Offsite', category: 'Events', image: 'https://picsum.photos/seed/gal4/600/400', description: 'TechNova engineering team offsite in Lake Tahoe.' },

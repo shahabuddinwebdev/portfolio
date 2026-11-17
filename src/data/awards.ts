@@ -34,10 +34,10 @@ export const awards: Award[] = [
   {
     id: 4,
     title: 'Data Structure and Algorithm',
-    issuer: 'Meta (Coursera)',
+    issuer: 'Scholarhat',
     date: 'May 2023',
     description: 'Professional certificate covering advanced React patterns, performance optimization, and testing strategies.',
-    image: 'https://picsum.photos/seed/meta-react/200/200',
+    image: 'https://yt3.googleusercontent.com/miClQYUdF_DLEM9FKQ5E53yKBARWU3-v74y1TBreUoZoz4ewV0jI2I4so03HG77XrG1CevtxMw=s900-c-k-c0x00ffffff-no-rj',
     type: 'certification',
     credentialUrl: 'https://coursera.org',
   },
