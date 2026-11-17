@@ -9,7 +9,7 @@ export const awards: Award[] = [
     description: 'For outstanding academic performance and contributions to the university community, awarded to the top 1% of students in the graduating class.',
     image: 'https://bdbusinessfinder.com/wp-content/uploads/2019/02/green-1.jpg',
     type: 'award',
-    credentialUrl: 'https://aws.amazon.com/certification/',
+    credentialUrl: 'https://lh3.googleusercontent.com/rd-d/ALs6j_ES51bRhZvN6FJHLwrBTUS0-vggllbUll-mM12opy7CJrLM9tDWq2ibFdLpBoHKsiEDiOhTjUH2iFRX1guwZMAqvxSoeJQmCCuYG7fE2IQAvhnwmGZ4rYgWYWqZVdU1i-uy-6T6BeSRjpdO6kgd93k7qmKU5_9zBJ1NBcBVtTL0wF3eQxUj-kCBStZUmMp_QLRtT_57ZqVeFc8f_YMpC3WshYkS_a37k6_dx_tVU7iNyI4IVCVQHMRZf4rIhuXURbIJfQ9EXFp2vBhzYT0N-x0d22kjigg9klmsTCo88qFwWMglPYJ4zdiwEoNCqb5-CysjBYDYdxHV0w0OBhAyeuSoE9KKhv4AilOZ5cXHoreaIaGAfGSGjn10cG3zOGj01DDFsp-T-pPtLbX0jOsLIFS-6wNkVXGKiHAKicLv9WasHt-ZjNxQwNp04FnOav8muNOrPHkN6VRDr336CU9Qe3N3Y3lbIZ2AEi9TD9ZCDufmfKVGOT9appWGt1oKDJfgSusr0PPznD42XHTSfJwSNpmFQpP2Mbu9XO5-HHdgihkUAIiSvQleEA3Onht6rIxb1Jxqb3GrsLi7xQBGWBc4rcSzt4JjyTDqagSnUWjslar8tZIRPQInM0A9P3qvQsLvhE_0kUDvuyFAD7UNEyE3PYgxuxxM3rokkd37_l4LKCaFeIxpj5I3DCgGudAitLefWNXhCNiEq54biF7kQzAZK44fpYqMN54nZPNtV6nwcN1PFPHvFK1BYoiKTThU7s9kZkfuJ85VUIJqJ9rwqlv8dP9dzqwwixy2ogSQxlY97rTeyhaq5IwJOiiWiePdCgpaaueVz6XumQojF0sQj6Vz5cSBQAu7DQjG8mBJYRFzl_de6CoJrGvYTLfOo2CCgASj4osnrFKGrq_LmPGq7vtOy3cTRp3vqYL-s5AZqt_yMVKor3RS3VgEyys-vnh0IdnWjX7VjX2jSckC5wXieNY7jdRO8QghfIze8g_VEAR5GmXJufnA4E_3yxRZSVqGCKK3YlVN9o5__3Y4N8ygv0E0Vv5zY_EFSjTB50Fj3NJLIM2isl87RXL5WxCbdP2W1K5612VFO6hSY5-2W4bxkwvpg5AmLLqV567uK2qHV8SbxhHz4aOm2W06TCmAvZ4F-8IcaD1RuB2V4vfJq676-oWE757Di_e0znnV3-9rBP6XGCfSow3vWg=w1920-h868?auditContext=prefetch',
   },
   {
     id: 2,
@@ -50,5 +50,15 @@ export const awards: Award[] = [
     image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Coursera-Logo_600x600.svg/3840px-Coursera-Logo_600x600.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail',
     type: 'certification',
     credentialUrl: 'https://www.coursera.org/account/accomplishments/verify/9KBADVYC6N8H',
+  },
+  {
+    id: 5,
+    title: 'React Crash Course: From Zero to Hero',
+    issuer: 'Udemy',
+    date: 'Feb 18, 2026',
+    description: 'Awarded for designing and implementing the real-time event streaming pipeline that reduced data latency by 80%.',
+    image: 'https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/5/udemy-icon-3j6wakwfpzle3lk48gsyn.png/udemy-icon-1o4mdttoaqgp1qaghk9f7.png?_a=DATAiZAAZAA0',
+    type: 'certification',
+    credentialUrl: 'https://www.udemy.com/certificate/UC-fd8da87f-75c2-4629-9ee1-505f3c40e835/',
   }
 ]

@@ -23,10 +23,8 @@ export const profile = {
 
 export const socialLinks = [
   { name: 'GitHub', icon: 'fa-github', url: 'https://github.com/shahabuddinwebdev', color: 'hover:text-gray-900 dark:hover:text-white' },
-  { name: 'LinkedIn', icon: 'fa-linkedin', url: 'https://linkedin.com/iamshahabuddin', color: 'hover:text-blue-600' },
-  { name: 'Twitter', icon: 'fa-x-twitter', url: 'https://twitter.com', color: 'hover:text-sky-500' },
-  { name: 'Dribbble', icon: 'fa-dribbble', url: 'https://dribbble.com', color: 'hover:text-pink-500' },
-  { name: 'Instagram', icon: 'fa-instagram', url: 'https://instagram.com', color: 'hover:text-rose-500' },
+  { name: 'LinkedIn', icon: 'fa-github', url: 'https://linkedin.com/iamshahabuddin', color: 'hover:text-blue-600' },
+  { name: 'GoogleScholar', icon: 'fa-github', url: 'https://linkedin.com/iamshahabuddin', color: 'hover:text-blue-600' },
   { name: 'YouTube', icon: 'fa-youtube', url: 'https://youtube.com/migfiedacademy', color: 'hover:text-red-600' },
 ]
 
