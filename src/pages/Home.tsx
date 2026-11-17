@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faDownload, faEnvelope, faCode, faServer, faCloud } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faGoogleScholar, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faArrowRight, faDownload, faEnvelope, faCode, faServer, faCloud, faDatabase, faScrewdriver } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faGoogleScholar, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { profile, socialLinks } from '../data/profile'
 import { stats } from '../data/misc'
 import { projects } from '../data/projects'
@@ -12,11 +12,15 @@ import { awards } from '../data/awards'
 import { testimonials } from '../data/testimonials'
 import ProjectCard from '../components/ProjectCard'
 import TestimonialCard from '../components/TestimonialCard'
+import { faBrain } from '@fortawesome/free-solid-svg-icons/faBrain'
 
 const iconMap: Record<string, typeof faCode> = {
   'fa-laptop-code': faCode,
   'fa-server': faServer,
   'fa-cloud': faCloud,
+  'fa-brain': faBrain,
+  'fa-database': faDatabase,
+  'fa-tools': faScrewdriver
 }
 
 const fadeUp = {

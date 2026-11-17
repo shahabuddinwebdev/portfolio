@@ -12,12 +12,10 @@ export const profile = {
   resumeUrl: 'https://www.overleaf.com/read/krkvhmtjhdfw#b50d65',
   avatar: 'https://lh3.googleusercontent.com/a/ACg8ocIVm-AHZHsMvhz9NW3JZjaYVRey0ET99kU962iXBMoQrhFVhOMh=s900-c-no',
   hobbies: [
-    { name: 'Photography', icon: 'fa-camera', description: 'Capturing urban landscapes and street scenes.' },
+    { name: 'Writing', icon: 'faPenRuler', description: 'Capturing urban landscapes and street scenes.' },
     { name: 'Hiking', icon: 'fa-mountain', description: 'Exploring national parks and mountain trails.' },
     { name: 'Open Source', icon: 'fa-code-branch', description: 'Contributing to developer tools and libraries.' },
-    { name: 'Chess', icon: 'fa-chess', description: 'Playing competitive online chess in my free time.' },
     { name: 'Reading', icon: 'fa-book', description: 'Sci-fi novels and engineering blogs.' },
-    { name: 'Coffee', icon: 'fa-mug-hot', description: 'Amateur barista and specialty coffee enthusiast.' },
   ],
 }
 

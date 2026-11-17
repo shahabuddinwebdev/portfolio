@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone, faLocationDot, faPaperPlane, faCheckCircle } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin, faXTwitter, faDribbble } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faGoogleScholar, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { profile } from '../data/profile'
 import { faqs } from '../data/misc'
 
@@ -14,8 +14,8 @@ const fadeUp = {
 const socialIcons = [
   { icon: faGithub, url: 'https://github.com', label: 'GitHub' },
   { icon: faLinkedin, url: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: faXTwitter, url: 'https://twitter.com', label: 'Twitter' },
-  { icon: faDribbble, url: 'https://dribbble.com', label: 'Dribbble' },
+  { icon: faGoogleScholar, url: 'https://twitter.com', label: 'Twitter' },
+  { icon: faYoutube, url: 'https://youtube.com', label: 'Youtube' },
 ]
 
 export default function Contact() {

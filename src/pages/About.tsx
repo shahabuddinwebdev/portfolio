@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDownload, faEnvelope, faLocationDot, faCode, faHeart } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faDownload, faEnvelope, faLocationDot, faHeart, faPenRuler, faBookOpenReader, faLaptopCode, faServer, faCloud, faLightbulb, faGaugeHigh, faUsers } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faGoogleScholar, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { profile, socialLinks } from '../data/profile'
 import { education } from '../data/experience'
 
@@ -76,7 +76,7 @@ export default function About() {
                 {socialLinks.slice(0, 4).map((s) => (
                   <a key={s.name} href={s.url} target="_blank" rel="noopener noreferrer" aria-label={s.name}
                     className={`w-10 h-10 rounded-xl bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-600 dark:text-gray-400 transition-colors ${s.color}`}>
-                    <FontAwesomeIcon icon={s.name === 'GitHub' ? faGithub : faLinkedin} />
+                    <FontAwesomeIcon icon={s.name === 'GitHub' ? faGithub : s.name === 'YouTube' ? faYoutube : s.name === 'GoogleScholar' ? faGoogleScholar : faLinkedin} />
                   </a>
                 ))}
               </div>
@@ -88,7 +88,7 @@ export default function About() {
                 {profile.hobbies.map((h) => (
                   <div key={h.name} className="card p-4 flex items-start gap-3">
                     <span className="w-10 h-10 rounded-xl bg-indigo-50 dark:bg-indigo-500/10 flex items-center justify-center text-indigo-600 dark:text-indigo-400 flex-shrink-0">
-                      <FontAwesomeIcon icon={faCode} />
+                      <FontAwesomeIcon icon={h.name === 'Writing' ? faPenRuler : h.name === 'Reading' ? faBookOpenReader : h.name === 'GoogleScholar' ? faGoogleScholar : faLinkedin} />
                     </span>
                     <div>
                       <p className="font-semibold text-sm">{h.name}</p>
@@ -141,12 +141,12 @@ export default function About() {
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { title: 'Web Application Development', icon: faCode, desc: 'End-to-end development of scalable, responsive web applications using modern frameworks.' },
-              { title: 'API & Backend Engineering', icon: faCode, desc: 'Designing robust RESTful and GraphQL APIs, microservices, and data pipelines built to scale.' },
-              { title: 'Cloud Architecture', icon: faCode, desc: 'Architecting cloud-native solutions on AWS, GCP, and Azure with infrastructure-as-code.' },
-              { title: 'Technical Consulting', icon: faCode, desc: 'Code audits, architecture reviews, and technical strategy to help your team ship faster.' },
-              { title: 'Performance Optimization', icon: faCode, desc: 'Profiling and optimizing applications for speed, reducing load times and infrastructure costs.' },
-              { title: 'Team Mentorship', icon: faCode, desc: 'Mentoring engineering teams on best practices, code quality, testing, and career growth.' },
+              { title: 'Web Application Development', icon: faLaptopCode, desc: 'End-to-end development of scalable, responsive web applications using modern frameworks.' },
+              { title: 'API & Backend Engineering', icon: faServer, desc: 'Designing robust RESTful and GraphQL APIs, microservices, and data pipelines built to scale.' },
+              { title: 'Cloud Architecture', icon: faCloud, desc: 'Architecting cloud-native solutions on AWS, GCP, and Azure with infrastructure-as-code.' },
+              { title: 'Technical Consulting', icon: faLightbulb, desc: 'Code audits, architecture reviews, and technical strategy to help your team ship faster.' },
+              { title: 'Performance Optimization', icon: faGaugeHigh, desc: 'Profiling and optimizing applications for speed, reducing load times and infrastructure costs.' },
+              { title: 'Team Mentorship', icon: faUsers, desc: 'Mentoring engineering teams on best practices, code quality, testing, and career growth.' },
             ].map((s, i) => (
               <motion.div key={s.title} custom={i} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="card p-6 hover:shadow-lg transition-shadow">
                 <span className="w-12 h-12 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white mb-4">
