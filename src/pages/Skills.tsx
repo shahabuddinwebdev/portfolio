@@ -43,7 +43,7 @@ export default function Skills() {
                   <h3 className="font-bold text-xl">{cat.category}</h3>
                 </div>
                 <div className="space-y-4 flex flex-wrap justify-between">
-                  {cat.skills.map((s, j) => (
+                  {cat.skills.map((s) => (
                     <div key={s.name}>
                       <div className="flex justify-between mb-1.5 text-sm">
                         <span className="font-medium">{s.name}</span>
