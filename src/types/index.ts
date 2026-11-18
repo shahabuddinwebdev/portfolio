@@ -45,7 +45,6 @@ export interface Research {
 
 export interface Skill {
   name: string
-  level: number
   icon?: string
 }
 

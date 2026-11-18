@@ -62,7 +62,6 @@ export default function About() {
                 {[
                   { label: 'Full Name', value: profile.name },
                   { label: 'Email', value: profile.email },
-                  { label: 'Phone', value: profile.phone },
                   { label: 'Location', value: profile.location },
                   { label: 'Availability', value: profile.availability },
                 ].map((item) => (

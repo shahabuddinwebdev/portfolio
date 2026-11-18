@@ -105,32 +105,6 @@ export default function Experience() {
           </div>
         </div>
       </section>
-      {/* Education */}
-      <section className="section bg-gray-50 dark:bg-gray-900/50">
-        <div className="container-max">
-          <h2 className="text-2xl font-bold mb-10 text-center">Education</h2>
-          <div className="max-w-3xl mx-auto space-y-6">
-            {education.map((edu, i) => (
-              <motion.div key={edu.id} custom={i} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="card p-6">
-                <div className="flex flex-wrap justify-between gap-2 mb-2">
-                  <h3 className="font-bold text-xl">{edu.institution}</h3>
-                  <span className="text-sm bg-purple-50 dark:bg-purple-500/10 text-purple-600 dark:text-purple-400 px-3 py-1 rounded-full">{edu.period}</span>
-                </div>
-                <p className="text-indigo-600 dark:text-indigo-400 font-medium mb-1">{edu.degree} in {edu.field}</p>
-                <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">GPA: <span className="font-semibold text-gray-700 dark:text-gray-300">{edu.gpa}</span></p>
-                <ul className="space-y-1.5">
-                  {edu.achievements.map((a) => (
-                    <li key={a} className="flex items-start gap-2 text-sm text-gray-600 dark:text-gray-400">
-                      <FontAwesomeIcon icon={faCheckCircle} className="text-indigo-400 mt-0.5 flex-shrink-0 text-xs" />
-                      {a}
-                    </li>
-                  ))}
-                </ul>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
     </main>
   )
 }

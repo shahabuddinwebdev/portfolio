@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLaptopCode, faServer, faDatabase, faCloud, faBrain, faTools } from '@fortawesome/free-solid-svg-icons'
+import { faLaptopCode, faServer, faDatabase, faCloud, faBrain, faTools, faFlask } from '@fortawesome/free-solid-svg-icons'
 import { skillCategories } from '../data/skills'
 
 const iconMap: Record<string, typeof faLaptopCode> = {
@@ -10,6 +10,7 @@ const iconMap: Record<string, typeof faLaptopCode> = {
   'fa-cloud': faCloud,
   'fa-brain': faBrain,
   'fa-tools': faTools,
+  'fa-flask': faFlask
 }
 
 const fadeUp = {
@@ -41,21 +42,11 @@ export default function Skills() {
                   </span>
                   <h3 className="font-bold text-xl">{cat.category}</h3>
                 </div>
-                <div className="space-y-4">
+                <div className="space-y-4 flex flex-wrap justify-between">
                   {cat.skills.map((s, j) => (
                     <div key={s.name}>
                       <div className="flex justify-between mb-1.5 text-sm">
                         <span className="font-medium">{s.name}</span>
-                        <span className="text-gray-500 dark:text-gray-400">{s.level}%</span>
-                      </div>
-                      <div className="h-2 bg-gray-100 dark:bg-gray-800 rounded-full overflow-hidden">
-                        <motion.div
-                          initial={{ width: 0 }}
-                          whileInView={{ width: `${s.level}%` }}
-                          viewport={{ once: true }}
-                          transition={{ duration: 1, delay: j * 0.1, ease: 'easeOut' }}
-                          className="h-full rounded-full bg-gradient-to-r from-indigo-500 to-purple-500"
-                        />
                       </div>
                     </div>
                   ))}
