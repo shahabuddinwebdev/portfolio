@@ -9,7 +9,7 @@ export const skillCategories: SkillCategory[] = [
       { name: 'CSS',},
       { name: 'JavaScript'},
       { name: 'TypeScript'},
-      { name: 'Python'},
+      { name: 'Python'}
     ],
   },
   {
