@@ -47,7 +47,6 @@ export default function Contact() {
 
   const contactInfo = [
     { icon: faEnvelope, label: 'Email', value: profile.email, href: `mailto:${profile.email}` },
-    { icon: faPhone, label: 'Phone', value: profile.phone, href: `tel:${profile.phone}` },
     { icon: faLocationDot, label: 'Location', value: profile.location, href: '#' },
   ]
 

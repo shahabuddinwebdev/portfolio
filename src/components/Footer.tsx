@@ -85,10 +85,6 @@ export default function Footer() {
                 <a href={`mailto:${profile.email}`} className="hover:text-indigo-400 transition-colors">{profile.email}</a>
               </li>
               <li className="flex items-center gap-2">
-                <FontAwesomeIcon icon={faPhone} className="text-indigo-400 w-4" />
-                <span>{profile.phone}</span>
-              </li>
-              <li className="flex items-center gap-2">
                 <FontAwesomeIcon icon={faLocationDot} className="text-indigo-400 w-4" />
                 <span>{profile.location}</span>
               </li>

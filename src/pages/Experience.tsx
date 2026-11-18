@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt, faCheckCircle, faGraduationCap, faUserGroup, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
-import { experiences, education, research } from '../data/experience'
+import { experiences, research } from '../data/experience'
 import { faLeanpub } from '@fortawesome/free-brands-svg-icons'
 
 const fadeUp = {
